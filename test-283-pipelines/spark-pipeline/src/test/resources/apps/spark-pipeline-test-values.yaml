@@ -1,0 +1,9 @@
+sparkApp:
+  spec:
+    deps:
+      packages:
+        - mysql:mysql-connector-java:8.0.30
+    sparkConf:
+      spark.sql.catalogImplementation: "hive"
+      spark.driver.host: "localhost"
+      spark.master: "local[*]"

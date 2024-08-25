@@ -1,0 +1,9 @@
+# Dev values for pipeline invocation service.
+aissemble-pipeline-invocation-chart:
+  aissemble-quarkus-chart:
+    image:
+      imagePullPolicy: IfNotPresent
+    service:
+      type: LoadBalancer
+    ingress:
+      enabled: false

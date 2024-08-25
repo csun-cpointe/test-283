@@ -1,0 +1,6 @@
+dependencies:
+- name: aissemble-spark-operator-chart
+  repository: oci://ghcr.io/boozallen
+  version: 1.9.0-SNAPSHOT
+digest: sha256:3bf504d8e87ba355d64d4e0b16ffe01c2e5fd0b617811c3603c8fd403bed8339
+generated: "2024-08-23T15:29:19.597849-07:00"

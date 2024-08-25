@@ -1,0 +1,13 @@
+sparkApp:
+    spec:
+      image: "test-283-spark-worker-docker:latest"
+      sparkConf:
+        spark.eventLog.enabled: "true"
+        spark.sql.catalogImplementation: "hive"
+        spark.eventLog.dir: "s3a://spark-infrastructure/spark-events"
+      driver:
+        cores: 1
+        memory: "2048m"
+      executor:
+        cores: 1
+        memory: "2048m"
