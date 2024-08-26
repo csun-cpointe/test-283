@@ -3,7 +3,6 @@ spec:
     valueFiles:
       - values.yaml
       - values-ci.yaml
-
-global:
-  imagePullPolicy: Always
-  dockerRepo: ghcr.io/
+  syncPolicy:
+    syncOptions:
+      - CreateNamespace=true
