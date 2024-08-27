@@ -1,1 +1,13 @@
 # Add CI specific values here
+
+aissemble-configuration-store-chart:
+  aissemble-quarkus-chart:
+    deployment:
+      image:
+        imagePullPolicy: IfNotPresent
+    service:
+      type: LoadBalancer
+
+  configurationVolume:
+    storageType: "local"
+    volumePathOnNode: "/Users/csun/bah/tests/test-283"

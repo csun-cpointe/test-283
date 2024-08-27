@@ -92,11 +92,11 @@ configMap:
       </property>
       <property>
         <name>fs.s3a.access.key</name>
-        <value>123</value>
+        <value>$getConfigValue(groupName=aws-credentials;propertyName=AWS_ACCESS_KEY_ID)</value>
       </property>
       <property>
         <name>fs.s3a.secret.key</name>
-        <value>456</value>
+        <value>$getConfigValue(groupName=aws-credentials;propertyName=AWS_SECRET_ACCESS_KEY)</value>
       </property>
       <property>
         <name>fs.s3a.endpoint</name>
