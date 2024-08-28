@@ -4,5 +4,4 @@ spec:
       - values.yaml
       - values-ci.yaml
   syncPolicy:
-    syncOptions:
-      - CreateNamespace=true
+    automated: {}
