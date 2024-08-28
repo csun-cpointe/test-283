@@ -15,3 +15,4 @@ poetry.toml
 .classpath
 .DS_Store
 .vscode/
+**/charts/*
