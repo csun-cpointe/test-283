@@ -26,3 +26,6 @@ aissemble-configuration-store-chart:
   configurationVolume:
     storageType: "custom"
     storageClass: ""
+
+  webhook:
+    enable: false
