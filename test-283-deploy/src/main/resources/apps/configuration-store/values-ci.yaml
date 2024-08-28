@@ -5,8 +5,6 @@ aissemble-configuration-store-chart:
     deployment:
       image:
         imagePullPolicy: IfNotPresent
-    service:
-      type: LoadBalancer
 
   configurationVolume:
     storageType: "local"
