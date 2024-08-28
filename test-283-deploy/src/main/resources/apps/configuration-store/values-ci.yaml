@@ -10,4 +10,4 @@ aissemble-configuration-store-chart:
 
   configurationVolume:
     storageType: "local"
-    volumePathOnNode: "/Users/csun/bah/tests/test-283"
+    volumePathOnNode: "/Users/csun/bah/tests/test-283/src/main/resources/configurations"
